@@ -1,23 +1,38 @@
-# Orinoco
+# So Pekocko
 
-So Pekocko is the sisth project of my Web Developper formation with Openclassrooms. I had to create an API to connect with the frontend which was provided.
+So Pekocko is the sixth project of my Web Developper formation with Openclassrooms. I had to create an API to connect with the frontend which was provided.
+The website must have different fonctionnality
+- Signup
+- Login
+- Create Sauce from a form (image included)
+- Modify Sauce
+- Delete Sauce
+- Display Sauce(s)
+- Every Sauce can be liked or disliked
+
+The application must respect OWASP and GDPR norms.
+
 
 ## Built with
 
 - JS
-- Expres
-- MongoDB
+- Framework : Express
+- Server : NodeJS
+- DataBase : MongoDB
 - VSCode
 - GitHub
 
 ## Built in
 
-Github repo : TheophileCourtois_5_19052021
+Github repo : TheophileCourtois_6_07072021
 
 
 ## Make it works
 
-After cloning the repository, make sure to run "node server" in the terminal. Then, open index.html in your browser and explore !
+After cloning the repository: 
+- Open the terminal > navigate to front-end folder > run the command "ng serve"
+- Open a new terminal > navigate to back-end folder > run the command "nodemon server"
+- Visit "http://localhost:4200"
 
 ## Author
 
