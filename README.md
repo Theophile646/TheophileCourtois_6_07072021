@@ -30,9 +30,28 @@ Github repo : TheophileCourtois_6_07072021
 ## Make it works
 
 After cloning the repository: 
-- Open the terminal > navigate to front-end folder > run the command "ng serve"
-- Open a new terminal > navigate to back-end folder > run the command "nodemon server"
-- Visit "http://localhost:4200"
+
+- Front-end :
+```
+cd front-end
+npm install
+npm start
+
+```
+Make sure you have `node-sass` installed globally
+
+- Back-end :
+
+In app.js, line 16, you have to change <username>, <password> and myFirstDatabase by the ones from your MongoDB Cluster.
+
+```
+cd back-end
+npm install
+nodemon server
+
+```
+
+You can now visit http://localhost:4000 and test the app.
 
 ## Author
 
