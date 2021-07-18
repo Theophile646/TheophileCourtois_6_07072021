@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 
 
-// Function to make sure that the user has a valid token when he is performing actions on the website
+// Middleware to make sure that the user has a valid token when he is performing actions on the website
 module.exports = (req, res, next) => {
   try {
     const token = req.headers.authorization.split(' ')[1];

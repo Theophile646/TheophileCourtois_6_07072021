@@ -42,8 +42,7 @@ exports.login = (req, res, next) => {
                 { userId: user._id},
                 'UOFJUOdJOUtq8M0askG8JdnmRf4fSIFBuVMeVqdqxTnEV7A5nPC0gfYbLatKN7V',
                 { expiresIn: '24h'}
-            )
-            
+            ) 
           });
         })
         .catch(error => {

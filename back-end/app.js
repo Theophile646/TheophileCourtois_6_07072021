@@ -5,17 +5,16 @@ const path = require('path');
 const helmet = require("helmet");
 const cookieSession = require('cookie-session');
 
+const Sauce = require('./models/sauce');
 
-
-const Sauce = require('./models/sauce'); // needed ?
 const userRoutes = require('./routes/user');
 const sauceRoutes = require('./routes/sauces');
 
-
 // Connection to the database
 mongoose.connect('mongodb+srv://<username>:<password>@sopeck.uhqni.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
-  { useNewUrlParser: true,
-    useUnifiedTopology: true })
+    { useNewUrlParser: true,
+      useUnifiedTopology: true }
+    )
   .then(() => console.log('Connexion à MongoDB réussie !'))
   .catch(() => console.log('Connexion à MongoDB échouée !'));
 

@@ -1,7 +1,7 @@
 # So Pekocko
 
 So Pekocko is the sixth project of my Web Developper formation with Openclassrooms. I had to create an API to connect with the frontend which was provided.
-The website must have different fonctionnality
+The website must have different fonctionnality :
 - Signup
 - Login
 - Create Sauce from a form (image included)

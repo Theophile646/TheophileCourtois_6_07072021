@@ -1,6 +1,6 @@
 const passwordSchema = require('../models/password');
 
-// middleware to check if the password is strong enough, it will be added to the route
+// middleware to check if the password is strong enough
 module.exports = (req, res, next) => {
   let passwordIsOk = passwordSchema.validate(req.body.password);
   if(!passwordIsOk){
